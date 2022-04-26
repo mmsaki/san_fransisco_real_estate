@@ -29,7 +29,7 @@ The rest of the code is in the the **File:** [San Fransisco Real Estate Market A
 * Make the x-axis represent the `year` and the y-axis represent the `housing_units`.
 * Style and format the line plot to ensure a professionally styled visualization.
     * What’s the overall trend in housing units over the period that you’re analyzing?
-    ![q1](./Images/q1.png)
+    ![1](./Images/housing_units_by_year.png)
 
 ## 🧱 2. Calculate and Plot the Average Sale Prices per Square Foot
 
@@ -42,7 +42,7 @@ The rest of the code is in the the **File:** [San Fransisco Real Estate Market A
 * Style and format the line plot to ensure a professionally styled visualization.
     * Did any year experience a drop in the average sale price per square foot compared to the previous year?
         * If so, did the gross rent increase or decrease during that year?
-        ![q2](./Images/q2.png)
+        ![2](./Images/avg_sale_price_%26_gross_rent.png)
 
 ## 🕍 3. Compare the Average Sale Prices by Neighborhood
 
@@ -53,7 +53,7 @@ The rest of the code is in the the **File:** [San Fransisco Real Estate Market A
 * Use the `groupby` parameter to create an interactive widget for `neighborhood`.
 * Style and format the line plot to ensure a professionally styled visualization.
     * For the Anza Vista neighborhood, is the average sale price per square foot for 2016 more or less than the price that’s listed for 2012?
-    ![q3](./Images/q3.png)
+    ![3](./Images/price_info_by_neighborhood.png)
 
 ## 🗺️ 4. Build an Interactive Neighborhood Map
 
@@ -65,7 +65,7 @@ The rest of the code is in the the **File:** [San Fransisco Real Estate Market A
 * Using hvPlot with GeoViews enabled, create a `points` plot for the `all_neighborhoods_df` DataFrame. 
 * Use the interactive map to answer the following question: 
     * Which neighborhood has the highest gross rent, and which has the highest sale price per square foot?
-    ![q4](./Images/q4.png)
+    ![4](./Images/geoviews_plot.png)
 
 ## ⛲ 5. Compose Your Data Story
 
