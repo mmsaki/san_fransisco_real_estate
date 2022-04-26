@@ -15,9 +15,9 @@
 
 - - - 
 
-**IMPORTANT:** I am able to plot on iPython Notebook, however the plots are not visible when I published the Notebook on GitHub. Find the attached images of my visual plots in this [README.md](./README.md) 
-<br> 
-The rest of the code is in the the **File:** [San Fransisco Real Estate Market Analysis](/san_francisco_housing.ipynb)
+**IMPORTANT:** I am able to plot on iPython Notebook, however the plots are not visible when I published the Notebook on GitHub. [More on this issue](https://stackoverflow.com/questions/62053561/plotly-graphs-not-showing-through-github-on-jupyter-notebooks)
+* My visual plots can be viewed in [Images](./Images/)
+* The rest of the code is in the the **File:** [San Fransisco Real Estate Market Analysis](/san_francisco_housing.ipynb)
 
 - - - 
 
