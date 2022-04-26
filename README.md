@@ -13,6 +13,9 @@
 
 5. [Compose your data story.](#-5-compose-your-data-story)
 
+* **IMPORTANT:** I am able to plot on iPython Notebook, the plots are not visible when I published that Notebook on GitHub. I attached images of my plot in this READEME.md.
+
+
 ## 🪵 1. Calculate and Plot the Housing Units per Year
 
 * Use the `groupby` function to group the data by year. 
@@ -21,6 +24,7 @@
 * Make the x-axis represent the `year` and the y-axis represent the `housing_units`.
 * Style and format the line plot to ensure a professionally styled visualization.
     * What’s the overall trend in housing units over the period that you’re analyzing?
+    * ![q1](./Images/q1.png)
 
 ## 🧱 2. Calculate and Plot the Average Sale Prices per Square Foot
 
@@ -33,6 +37,7 @@
 * Style and format the line plot to ensure a professionally styled visualization.
     * Did any year experience a drop in the average sale price per square foot compared to the previous year?
         * If so, did the gross rent increase or decrease during that year?
+        * ![q2](./Images/q2.png)
 
 ## 🕍 3. Compare the Average Sale Prices by Neighborhood
 
@@ -43,6 +48,7 @@
 * Use the `groupby` parameter to create an interactive widget for `neighborhood`.
 * Style and format the line plot to ensure a professionally styled visualization.
     * For the Anza Vista neighborhood, is the average sale price per square foot for 2016 more or less than the price that’s listed for 2012?
+    * ![q3](./Images/q3.png)
 
 ## 🗺️ 4. Build an Interactive Neighborhood Map
 
@@ -54,6 +60,7 @@
 * Using hvPlot with GeoViews enabled, create a `points` plot for the `all_neighborhoods_df` DataFrame. 
 * Use the interactive map to answer the following question: 
     * Which neighborhood has the highest gross rent, and which has the highest sale price per square foot?
+    * ![q4](./Images/q4.png)
 
 ## ⛲ 5. Compose Your Data Story
 
