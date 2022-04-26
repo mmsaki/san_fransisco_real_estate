@@ -15,7 +15,7 @@
 
 - - - 
 
-**IMPORTANT:** I am able to plot on iPython Notebook, the plots are not visible when I published that Notebook on GitHub. Find the attached images of my plot in this [README.md](./README.md) 
+**IMPORTANT:** I am able to plot on iPython Notebook, the plots are not visible when I published that Notebook on GitHub. Find the attached images of my visual plots in this [README.md](./README.md) 
 <br> 
 The rest of the code is in the the **File:** [San Fransisco Real Estate Market Analysis](/san_francisco_housing.ipynb)
 
