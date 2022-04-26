@@ -2,7 +2,7 @@
 <div> <img src="https://c.tenor.com/LsaHIHJWFzEAAAAd/reis-sanfran.gif" alt="Sim" align="center" width="100%"/>
 </div>
 
-# 🌉 Housing Rental Analysis for San Francisco
+# Housing Rental Analysis for San Francisco
 
 ## Table of Contents
 1. [Calculate and plot the housing units per year.](#1-calculate-and-plot-the-housing-units-per-year)
