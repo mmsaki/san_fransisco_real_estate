@@ -3,15 +3,15 @@
 </div>
 
 ## 📙 Table of Contents
-1. [Calculate and plot the housing units per year.](#1-calculate-and-plot-the-housing-units-per-year)
+1. [Calculate and plot the housing units per year.](#-1-calculate-and-plot-the-housing-units-per-year)
 
-2. [Calculate and plot the average prices per square foot.](#2-calculate-and-plot-the-average-sale-prices-per-square-foot)
+2. [Calculate and plot the average prices per square foot.](#-2-calculate-and-plot-the-average-sale-prices-per-square-foot)
 
-3. [Compare the average prices by neighborhood.](#3-compare-the-average-sale-prices-by-neighborhood)
+3. [Compare the average prices by neighborhood.](#-3-compare-the-average-sale-prices-by-neighborhood)
 
-4. [Build an interactive neighborhood map.](#4-build-an-interactive-neighborhood-map)
+4. [Build an interactive neighborhood map.](#%EF%B8%8F-4-build-an-interactive-neighborhood-map)
 
-5. [Compose your data story.](#5-compose-your-data-story)
+5. [Compose your data story.](#-5-compose-your-data-story)
 
 ## 🪵 1. Calculate and Plot the Housing Units per Year
 
