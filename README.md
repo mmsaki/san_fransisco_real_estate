@@ -3,16 +3,16 @@
 </div>
 -->
 
-## 📙 Table of Contents
-1. [Calculate and plot the housing units per year.](#-1-calculate-and-plot-the-housing-units-per-year)
+## Table of Contents
+1. [Calculate and plot the housing units per year.](#1-calculate-and-plot-the-housing-units-per-year)
 
-2. [Calculate and plot the average prices per square foot.](#-2-calculate-and-plot-the-average-sale-prices-per-square-foot)
+2. [Calculate and plot the average prices per square foot.](#2-calculate-and-plot-the-average-sale-prices-per-square-foot)
 
-3. [Compare the average prices by neighborhood.](#-3-compare-the-average-sale-prices-by-neighborhood)
+3. [Compare the average prices by neighborhood.](#3-compare-the-average-sale-prices-by-neighborhood)
 
-4. [Build an interactive neighborhood map.](#%EF%B8%8F-4-build-an-interactive-neighborhood-map)
+4. [Build an interactive neighborhood map.](#4-build-an-interactive-neighborhood-map)
 
-5. [Compose your data story.](#-5-compose-your-data-story)
+5. [Compose your data story.](#5-compose-your-data-story)
 
 - - - 
 
@@ -22,7 +22,7 @@
 
 - - - 
 
-## 🪵 1. Calculate and Plot the Housing Units per Year
+## 1. Calculate and Plot the Housing Units per Year
 
 * Use the `groupby` function to group the data by year. 
 * Aggregate the results by the `mean` of the groups.
@@ -32,7 +32,7 @@
     * What’s the overall trend in housing units over the period that you’re analyzing?
     ![1](./Images/housing_units_by_year.png)
 
-## 🧱 2. Calculate and Plot the Average Sale Prices per Square Foot
+## 2. Calculate and Plot the Average Sale Prices per Square Foot
 
 * Group the data by year, and then average the results. 
 * What’s the lowest gross rent that’s reported for the years that the DataFrame includes?
@@ -45,7 +45,7 @@
         * If so, did the gross rent increase or decrease during that year?
         ![2](./Images/avg_sale_price_%26_gross_rent.png)
 
-## 🕍 3. Compare the Average Sale Prices by Neighborhood
+## 3. Compare the Average Sale Prices by Neighborhood
 
 * Create a new DataFrame that groups the original DataFrame by year and neighborhood. Aggregate the results by the `mean` of the groups.
 * Filter out the “housing_units” column to create a DataFrame that includes only the `sale_price_sqr_foot` and `gross_rent` averages per year.
@@ -56,7 +56,7 @@
     * For the Anza Vista neighborhood, is the average sale price per square foot for 2016 more or less than the price that’s listed for 2012?
     ![3](./Images/price_info_by_neighborhood.png)
 
-## 🗺️ 4. Build an Interactive Neighborhood Map
+## 4. Build an Interactive Neighborhood Map
 
 * Read the `neighborhood_coordinates.csv` file from the `Resources` folder into the notebook, and create a DataFrame named `neighborhood_locations_df`. 
 * Be sure to set the `index_col` of the DataFrame as “Neighborhood”.
@@ -68,7 +68,7 @@
     * Which neighborhood has the highest gross rent, and which has the highest sale price per square foot?
     ![4](./Images/geoviews_plot.png)
 
-## ⛲ 5. Compose Your Data Story
+## 5. Compose Your Data Story
 
 * Based on the visualizations that you created, answer the following questions:
     * How does the trend in rental income growth compare to the trend in sales prices? Does this same trend hold true for all the neighborhoods across San Francisco?
